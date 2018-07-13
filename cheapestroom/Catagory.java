@@ -32,6 +32,9 @@ public class Catagory {
 
     @Override
     public int hashCode() {
-        return 0;
+        int result=17;
+        result=31*result+customer.hashCode();
+        result=31*result+day.hashCode();
+        return result;
     }
 }
