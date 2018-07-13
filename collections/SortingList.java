@@ -1,4 +1,4 @@
-package AkshayAssignment.Others;
+package assignment1.collections;
 
 import java.util.*;
 public class SortingList {
@@ -53,15 +53,5 @@ public class SortingList {
         }
         return end;
     }
-    /*public<N> List sortingList(List<N> list)
-    {
-        //Scanner scan=new Scanner(System.in);
-        //ArrayList<String> list=new ArrayList<String>();
-
-        List result=SortingList.sort(list);
-        for(int i=0;i<result.size();i++)
-        {
-            System.out.println(result.get(i));
-        }
-    }*/
+    
 }

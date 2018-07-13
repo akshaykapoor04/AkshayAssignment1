@@ -1,5 +1,5 @@
-package AkshayAssignment.Testing;
-import AkshayAssignment.Others.MapSort;
+package assignment1.testing;
+import assignment1.collections.MapSort;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
@@ -9,7 +9,6 @@ public class MapSortTesting {
     @Test
     public void test()
     {
-        MapSort mapSort=new MapSort();
         Map<Integer,String> student=new HashMap<>();
         student.put(2,"tutu");
         student.put(3,"akshay");

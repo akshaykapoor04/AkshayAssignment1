@@ -1,5 +1,5 @@
-package AkshayAssignment.Testing;
-import AkshayAssignment.Others.SortingList;
+package assignment1.testing;
+import assignment1.collections.SortingList;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import java.util.ArrayList;

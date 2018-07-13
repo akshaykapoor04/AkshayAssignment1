@@ -1,8 +1,37 @@
-package AkshayAssignment.hotelReservation;
+package assignment1.hotelreservation;
 
+import java.util.Map;
 
-import java.util.List;
+public class WoodHotels {
+    private String name;
+    private int rateWeekDay;
+    private int rateWeekEnd;
+    private int rating;
 
-public abstract class WoodHotels {
-    abstract public int calculateTotal(List list);
+    WoodHotels(String name,int rateWeekDay, int rateWeekEnd, int rating) {
+        this.name=name;
+        this.rateWeekDay = rateWeekDay;
+        this.rateWeekEnd = rateWeekEnd;
+        this.rating = rating;
+    }
+
+    public int getRating() {
+        return this.rating;
+    }
+
+    public int calculateTotal(Map<String,Integer> days) {
+        return days.get("Weekdays")*this.rateWeekDay+days.get("Weekenddays")*rateWeekEnd;
+    }
+
+    public int getRateWeekDay() {
+        return rateWeekDay;
+    }
+
+    public int getRateWeekEnd() {
+        return rateWeekEnd;
+    }
+
+    public String getName() {
+        return name;
+    }
 }
