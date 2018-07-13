@@ -1,4 +1,4 @@
-package assignment1.testing;
+package assignment1.test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 

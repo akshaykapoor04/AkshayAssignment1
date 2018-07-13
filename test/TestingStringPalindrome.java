@@ -1,4 +1,4 @@
-package assignment1.testing;
+package assignment1.test;
 import assignment1.string.StringPalindrome;
 import org.junit.Test;
 

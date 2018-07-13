@@ -1,4 +1,4 @@
-package assignment1.testing;
+package assignment1.test;
 import assignment1.collections.MapSort;
 import org.junit.Test;
 import static org.junit.Assert.*;
